@@ -14,6 +14,37 @@ C/C++ programming
 http://bbs.360.cn/4050052/7376852.html wjjsun
 
 git usage
+Global setup:
+Download and install Git
+git config --global user.name "Your Name"
+git config --global user.email wjjsun@eyou.com
+
+Next steps:
+mkdir testdoc
+cd testdoc
+git init
+touch README
+git add README
+git commit -m 'first commit'
+git remote add origin git@github.com:wjjsun/testdoc.git
+git push origin master
+Existing Git Repo?
+
+cd existing_git_repo
+git remote add origin git@github.com:wjjsun/testdoc.git
+git push origin master
+
+
+Importing a SVN Repo?
+
+Click here
+
+
+When you're done:
+
+Continue
+
+
 ========================================
 git log --graph --abbrev-commit --pretty=oneline --decorate
 git clone git://github.com/wyjday/wyjday.git
