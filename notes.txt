@@ -1,0 +1,54 @@
+
+make ENABLE_PV_LOGGING=1
+
+android create project -t 2 -p videoplayer -a videoplayer -k com.android.videoplayer -m activity
+
+useful links
+========================================
+android git release
+http://android.git.kernel.org/
+svg tools
+http://www.inkscape.org/download/?lang=en
+
+C/C++ programming
+http://bbs.360.cn/4050052/7376852.html wjjsun
+
+git usage
+========================================
+git log --graph --abbrev-commit --pretty=oneline --decorate
+git clone git://github.com/wyjday/wyjday.git
+git push git@github.com:wjjsun/wjjsun.git master
+
+git log --graph --abbrev-commit --pretty=oneline --decorate
+git clone git://github.com/wyjday/wyjday.git
+
+android git location
+git clone git://android.git.kernel.org/ + project path.
+git clone git://android.git.kernel.org/platform/external/opencore.git
+
+android build necesary packages
+sudo apt-get install git-core gnupg sun-java5-jdk flex bison gperf libsdl-dev libesd0-dev libwxgtk2.6-dev build-essential zip curl libncurses5-dev zlib1g-dev
+curl http://android.git.kernel.org/repo >~/bin/repo
+repo init -u git://android.git.kernel.org/platform/manifest.git
+repo init -u git://android.git.kernel.org/platform/manifest.git -b cupcake
+
+adb command
+========================================
+get stdout/stderr log
+http://emck.avaw.com/?p=116
+$ adb shell stop
+$ adb shell setprop log.redirect-stdio true
+$ adb shell start
+
+android examples
+========================================
+http streaming example 13.
+http://whyandroid.com/android/92-android-tutorial-3-custom-media-streaming-with-mediaplayer.html
+
+========================================
+git clone git://github.com/wjjsun/wjjsun.git
+git push git@github.com:wjjsun/wjjsun.git master
+git clone git@222.128.26.141:/home/git/repositories/wyjday
+git push git@222.128.26.141:/home/git/repositories/wyjday
+========================================
+
